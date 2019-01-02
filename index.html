@@ -1,51 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
+    <meta charset="UTF-8">
     <title>Josadec Pedraza</title>
+    <link rel="icon" type="image/png" href="images/jos1.png"><!--Favicon Josadec Pedraza-->
   </head>
   <body>
     <header>
-      <nav>
-        <ol>
-          <li>
-            <a>Portafolio</a>
-          </li>
-          <li>
-            <a>Experincia</a>
-          </li>
-          <li>
-            <a>Trabajemos Juntos</a>
-          </li>
-        </ol>
-      </nav>
+      <div id="" class="">
+        <figure>
+          <img src="images/josa.jpg" alt="Logo Josadec">
+        </figure>
+        <nav>
+          <ol>
+            <li>
+              <a href="./portafolio/index.html">Portafolio</a>
+            </li>
+            <li>
+              <a href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a href="#contacto">Trabajemos Juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
     </header>
     <section>
-      <h1>
-        Hola! Soy <strong> Pedraza</strong> <br/> Desarrollador Web <br/><strong>Frondend & Backend</strong> 
-      </h1>
-      <img>Imagen de portada
+      <div>
+        <h1>
+          Hola! Soy <strong>Josadec Pedraza</strong> <br/> Desarrollador Web <br/><strong>Frondend & Backend</strong> 
+        </h1>
+        <img src="images/redes.jpg" width="500" height="300" alt="Imagen principal del sitio" />
+      </div>
     </section>
-    <section>
+    <section id="portafolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article>
           <h3>Visual Factory</h3>
-          <h6>PHP CSS HTML MySQL</h6>
+          <h6>PHP CSS HTML MySQL JavaScrip</h6>
           <p><small><strong>Fecha:</strong>02/01/2018</small></p>
           <p><small><strong>Puedes Verlo en:</strong>www.github.com</small></p>
-          <p>Una proyecto donde se visualica la creacion de Quotes de un de partament de cotizacion</p>
+          <p>Una proyecto donde se visualisa la creacion de Quotes de un de partament de cotizacion</p>
+          <img src="images/visualfactory.jpg" width="500" height="300" alt="Proyecto en American Specialties">
       </article>
     </section>
-    <section>
+    <section id="eventos">
       <h2>Mas Sobre Mi Experiencia</h2>
       <article>
           <figure>
-              <img src="" alt="">
+              <img src="images/eventocisco.jpg" width="500" height="300" alt="evento cisco" />
           </figure>
           <h3>PlatziCon Mexico 2018</h3>
+          <p>El evento mas grande sobre geten que quiere aprender mas de internet. </p>
           <a href="">ver platica</a>
       </article>
     </section>
-    <section>Seccion contacto</section>
+    <section id="contacto">
+      <form action="/suscripcion">
+          <label for="email">Dejame tu Email</label>
+          <input type="text" placeholder="Dejame tu email" id="email">
+          <button>Enviar</button>
+      </form>
+    </section>
     <footer>Footer</footer>
   </body>
 </html>
