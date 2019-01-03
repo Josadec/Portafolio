@@ -1,0 +1,11 @@
+/* 
+Reglas ejemplo de Rengla (header{color:black;}),
+Selctores es (header, body, id, class),
+declaraciones son ({background :xxx;}),
+Porpiedades son (background),
+Valores de CSS son (rgba(61,219,61,0.774)) 
+*/
+
+header{
+  background:rgba(61, 219, 61, 0.774);
+}
