@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Josadec Pedraza</title>
     <link rel="icon" type="image/png" href="images/jos1.png"><!--Favicon Josadec Pedraza-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Source+Sans+Pro" rel="stylesheet"> 
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
@@ -30,19 +31,21 @@
     <section class="hero">
       <div>
         <h1>
-          Hola! Soy <strong>Josadec Pedraza</strong> <br/> Desarrollador Web <br/><strong>Frondend & Backend</strong> 
+          <strong>Hola!</strong>  Soy <strong>Josadec Pedraza</strong> <br/> Desarrollador Web <br/><strong>Frondend & Backend</strong> 
         </h1>
-        <img src="images/redes.jpg" width="500" height="300" alt="Imagen principal del sitio" />
+       <!-- <img src="images/redes.jpg" width="500" height="300" alt="Imagen principal del sitio" /> -->
       </div>
     </section>
-    <section id="portafolio" class="portfolio">
+    <section id="portfolio" class="portfolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project">
-          <h3 class="project-title">Visual Factory</h3>
-          <h6 class="project-curse">PHP CSS HTML MySQL JavaScrip</h6>
-          <p class="project-date"><small><strong>Fecha:</strong>02/01/2018</small></p>
-          <p class="project-url"><small><strong>Puedes Verlo en:</strong>www.github.com</small></p>
-          <p class="project-description">Una proyecto donde se visualisa la creacion de Quotes de un de partament de cotizacion</p>
+        <div class="project-ditails">
+            <h3 class="project-title">Visual Factory</h3>
+            <h6 class="project-curse">PHP CSS HTML MySQL JavaScrip</h6>
+            <p class="project-date"><small><strong>Fecha:</strong>02/01/2018</small></p>
+            <p class="project-url"><small><strong>Puedes Verlo en:</strong>www.github.com</small></p>
+            <p class="project-description">Una proyecto donde se visualisa la creacion de Quotes de un de partament de cotizacion</p>
+        </div>
           <figure class="project-imageContainer">
               <img class="project-image" src="images/visualfactory.jpg" width="500" height="300" alt="Proyecto en American Specialties"/>
           </figure>
@@ -50,12 +53,15 @@
     </section>
     <section id="eventos">
       <h2>Mas Sobre Mi Experiencia</h2>
-      <article class="evetn">
+      <article class="event">
+          <div class="event-ditails">
+            <h3 class="event-title">PlatziCon Mexico 2018</h3>
+            <p class="event-description">El evento mas grande sobre geten que quiere aprender mas de internet. </p>
+         
+          </div>
           <figure class="event-imageContainer">
               <img class="event-image" src="images/eventocisco.jpg" width="500" height="300" alt="evento cisco" />
           </figure>
-          <h3 class="event-title">PlatziCon Mexico 2018</h3>
-          <p class="event-description">El evento mas grande sobre geten que quiere aprender mas de internet. </p>
           <a class="event-url" href="#" target="_blank">ver platica</a>
       </article>
     </section>
